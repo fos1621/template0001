@@ -1,0 +1,68 @@
+/*Todos*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5{
+	font-family: "Raleway", sans-serif;
+}
+body{
+	color: #000000!important;
+	background-color: #f1f1f1!important;
+}
+
+
+/*Para Desktops*/
+
+/*Estilo do cabeçalho*/
+.layout_esquerda{
+	max-width: 63%;
+	float: left;
+}
+.layout_direita{
+	max-width: 37%;
+	float: right;
+}
+.cabecalho{
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 4% 0% 4% 0%;
+}
+.cabecalho h1{
+	text-transform: uppercase;
+	margin: 0% 0% 1.5% 0%;
+	font-size: 2.5em;
+}
+.cabecalho p{
+	font-size: 1em;
+}
+.cabecalho span{
+	padding: 0.3% 0.5% 0.3% 0.5%;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+/*card1 esquerda*/
+.layout_esquerda{
+	margin-left: 1.5%;
+}
+.layout_esquerda .card1{
+	width: 100%;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+.layout_esquerda .card1 img{
+	width: 100%;
+}
+/*Para tablets*/
+@media only screen and (max-width: 999px;){
+
+}
+
+
+
+/*Para celulares*/
+@media only screen and (max-width: 599px;){
+
+}
