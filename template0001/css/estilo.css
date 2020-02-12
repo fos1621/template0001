@@ -15,14 +15,6 @@ body{
 /*Para Desktops*/
 
 /*Estilo do cabeçalho*/
-.layout_esquerda{
-	max-width: 63%;
-	float: left;
-}
-.layout_direita{
-	max-width: 37%;
-	float: right;
-}
 .cabecalho{
 	text-align: center;
 	display: block;
@@ -43,18 +35,66 @@ body{
 	color: #FFFFFF;
 }
 
-
-/*card1 esquerda*/
-.layout_esquerda{
-	margin-left: 1.5%;
+img{
+	width: 100%;
 }
-.layout_esquerda .card1{
+.titulo{
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 7%;
+	padding: 2% 6% 2% 2%;
+}
+.titulo h2{
+	font-size: 1.8em;
+	margin-bottom: 1.5%;
+}
+.titulo h4{
+	margin-bottom: 2.5%;
+}
+.titulo p{
+	margin-bottom: 3.5%;
+}
+.titulo button{
+	text-transform: uppercase;
+	padding: 1.8% 2.8%;
+	float: left;
+	background-color: #FFFFFF;
+	border: .3px solid #ccc;
+}
+.titulo button:hover{
+	background-color: #ccc;
+}
+.titulo .p2{
+	float: right;
+	margin: 0;
+}
+.titulo .p2 span{
+	background-color: #000000;
+	padding: 3%;
+	color: #FFFFFF;
+}
+
+/*Para todos os cards*/
+.card-shadow{
 	width: 100%;
 	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+	margin-left: 1.5%;
 }
-.layout_esquerda .card1 img{
-	width: 100%;
+
+
+/*card1*/
+.card1{
+	max-width: 63%;
+	float: left;
 }
+
+/*Card2*/
+.card2{
+	max-width: 30%;
+	float: right;
+	margin-right: 3%;
+}
+
 /*Para tablets*/
 @media only screen and (max-width: 999px;){
 
